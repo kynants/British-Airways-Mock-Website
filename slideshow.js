@@ -1,3 +1,6 @@
+// Borrowed from:
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
+
 var slideIndex = 0;
 showSlides();
 
@@ -10,9 +13,8 @@ function showSlides() {
     }
 
     slideIndex++;
-    if (slideIndex > slides.length) {
-        slideIndex = 1
-    }
+    if (slideIndex > slides.length) {slideIndex = 1}
+
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" activeSlide", "");
     }
