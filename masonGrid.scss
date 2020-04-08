@@ -1,0 +1,71 @@
+.grid:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.grid {
+    display: grid;
+    padding: 15px;
+    margin: 15px;
+    // grid-template-columns: repeat(3, 1fr);
+    // grid-template-rows: repeat(5, 1fr);
+    position: relative;
+    bottom: 5em;
+
+    div {
+        border-radius: 4px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        
+        .grid-height-small {
+            height: 20%;
+        }
+        .grid-height-medium {
+            height: 40%;
+        }
+        .grid-height1-large {
+            height: 60%;
+        }
+    }
+
+    #form {
+        height: 100%;
+        background-color: white;
+    }
+    
+    #cancel-booking {
+        // width: 682px;
+        // height: 442px;
+    }
+    
+    #change-booking {
+        // width: 326px;
+        // height: 540px;
+    }
+    
+    #make-booking {
+        // width: 326px;
+        // height: 540px;
+    }
+    
+    #new-flights {
+        // width: 682px;
+        // height: 581px;
+    }
+    
+    #welcome-board {
+    
+    }
+    
+    #locals {
+    
+    }
+    
+    #contact-us {
+    
+    }
+
+}

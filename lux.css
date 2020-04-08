@@ -2514,6 +2514,11 @@ textarea.form-control {
         width: auto;
         vertical-align: middle;
     }
+    @media only screen and (max-width: 1056px) {
+        .form-inline .form-control {
+            width: 95%;
+        }
+    }
     .form-inline .form-control-plaintext {
         display: inline-block;
     }
