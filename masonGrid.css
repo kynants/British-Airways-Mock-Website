@@ -7,30 +7,19 @@
   bottom: 5em;
 }
 
+@media (max-width: 768px) {
+  .grid .card-columns {
+    -webkit-column-count: 2;
+            column-count: 2;
+  }
+}
+
 .grid div {
-  display: -ms-grid;
-  display: grid;
   border-radius: 4px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding-left: 15px;
   padding-right: 15px;
-}
-
-.grid .grid-item {
-  float: left;
-}
-
-.grid .grid-height-small {
-  height: 700px;
-}
-
-.grid .grid-height-medium {
-  height: 1400px;
-}
-
-.grid .grid-height-large {
-  height: 2100px;
 }
 
 .grid #form {
