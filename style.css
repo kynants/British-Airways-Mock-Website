@@ -7,7 +7,7 @@
   bottom: 5em;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .grid .card-columns {
     -webkit-column-count: 2;
             column-count: 2;
@@ -15,8 +15,6 @@
 }
 
 .grid div {
-  display: -ms-grid;
-  display: grid;
   border-radius: 4px;
   margin-top: 15px;
   margin-bottom: 15px;
